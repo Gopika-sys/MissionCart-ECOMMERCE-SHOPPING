@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: missioncart-backend
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:local}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: false
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 150MB
+
+server:
+  port: ${SERVER_PORT:8080}
+
+missioncart:
+  jwt:
+    secret: ${JWT_SECRET:dev_only_replace_with_secure_256_bit_jwt_secret_key_for_missioncart_access}
+    refresh-secret: ${JWT_REFRESH_SECRET:dev_only_replace_with_secure_256_bit_jwt_refresh_secret_key_for_missioncart}
+    access-expiration-ms: 900000
+    refresh-expiration-ms: 604800000
+    cookie-secure: false
+  cors:
+    allowed-origins: ${FRONTEND_URL:http://localhost:5173},http://127.0.0.1:5173
+  ai:
+    provider: ${AI_PROVIDER:fallback}
+    gemini-api-key: ${GEMINI_API_KEY:}
+    openai-api-key: ${OPENAI_API_KEY:}
+  payment:
+    provider: ${PAYMENT_PROVIDER:razorpay}
+    upi-vpa: ${UPI_MERCHANT_VPA:}
+    upi-merchant-name: ${UPI_MERCHANT_NAME:MissionCart}
+  razorpay:
+    key-id: ${RAZORPAY_KEY_ID:}
+    key-secret: ${RAZORPAY_KEY_SECRET:}
+    webhook-secret: ${RAZORPAY_WEBHOOK_SECRET:}
+  paytm:
+    mid: ${PAYTM_MERCHANT_ID:}
+    merchant-key: ${PAYTM_MERCHANT_KEY:}
+    website: ${PAYTM_WEBSITE:WEBSTAGING}
+    callback-url: ${PAYTM_CALLBACK_URL:http://localhost:8080/api/webhooks/paytm}
+    env: ${PAYTM_ENV:staging}
+  admin:
+    bootstrap-email: ${ADMIN_BOOTSTRAP_EMAIL:}
+    bootstrap-password: ${ADMIN_BOOTSTRAP_PASSWORD:}
+  databoutique:
+    api-token: ${DATABOUTIQUE_API_TOKEN:}
+    base-url: ${DATABOUTIQUE_BASE_URL:https://api.databoutique.com}
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
