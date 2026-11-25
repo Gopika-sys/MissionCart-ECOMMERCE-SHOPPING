@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="missioncart-banner.svg" alt="MissionCart — Shopping by Purpose" width="100%" />
+  <img src="missioncart-hero-banner.svg" alt="MissionCart — Shopping by Purpose" width="100%" />
   <p><strong>Shopping by Purpose, Not Products.</strong></p>
   <p><strong>Author:</strong> <a href="https://github.com/Gopika-sys">Gopika</a></p>
   <p>Describe what you are preparing for. Discover relevant products, plan a budget and choose how to shop.</p>
