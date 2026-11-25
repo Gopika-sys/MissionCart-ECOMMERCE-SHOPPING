@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">MissionCart — Shopping by Purpose</title>
+  <desc id="desc">Editorial brand banner in burgundy, blush, ivory, caramel and chocolate, with abstract shopping collection cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBF7F0"/><stop offset="1" stop-color="#F0E5D9"/></linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EBCFD6"/><stop offset="1" stop-color="#D9AEBB"/></linearGradient>
+    <linearGradient id="caramel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D7B58B"/><stop offset="1" stop-color="#B78452"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#392822" flood-opacity=".13"/></filter>
+    <pattern id="grain" width="120" height="120" patternUnits="userSpaceOnUse"><circle cx="14" cy="19" r="1" fill="#7F2548" opacity=".10"/><circle cx="75" cy="88" r="1" fill="#2B2220" opacity=".08"/><circle cx="102" cy="35" r=".8" fill="#C69B6D" opacity=".18"/></pattern>
+  </defs>
+  <rect width="1600" height="620" rx="30" fill="url(#bg)"/>
+  <rect width="1600" height="620" rx="30" fill="url(#grain)"/>
+  <circle cx="1450" cy="78" r="190" fill="#E7C8D0" opacity=".38"/>
+  <circle cx="70" cy="600" r="210" fill="#C69B6D" opacity=".12"/>
+  <g transform="translate(110 100)">
+    <rect x="0" y="0" width="54" height="54" rx="18" fill="#7F2548"/>
+    <path d="M27 10l5.5 11.5L44 27l-11.5 5.5L27 44l-5.5-11.5L10 27l11.5-5.5z" fill="#F3EDE3"/>
+    <text x="74" y="39" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="700" fill="#2B2220">MISSIONCART</text>
+  </g>
+  <g transform="translate(110 222)">
+    <text x="0" y="0" font-family="Georgia,serif" font-size="84" font-weight="700" fill="#2B2220">Shopping by</text>
+    <text x="0" y="98" font-family="Georgia,serif" font-size="92" font-style="italic" fill="#7F2548">purpose.</text>
+    <text x="4" y="166" font-family="Inter,Arial,sans-serif" font-size="25" fill="#6C5D56">Tell us what life is asking for.</text>
+    <text x="4" y="204" font-family="Inter,Arial,sans-serif" font-size="25" fill="#6C5D56">Discover products that fit your plan, preferences and budget.</text>
+    <rect x="4" y="250" width="258" height="54" rx="27" fill="#7F2548"/>
+    <text x="133" y="285" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">DISCOVER YOUR MISSION</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(880 95) rotate(-7 180 210)">
+    <rect width="260" height="390" rx="22" fill="#E7C8D0"/>
+    <rect x="18" y="18" width="224" height="245" rx="14" fill="url(#rose)"/>
+    <path d="M80 208c-30-42-21-89 14-116 35-27 80-17 99 21 18 38-1 73-32 95-23 17-55 17-81 0z" fill="#7F2548" opacity=".82"/>
+    <path d="M111 91c12 24 33 38 64 43" stroke="#F8EFE8" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <text x="24" y="300" font-family="Georgia,serif" font-size="25" fill="#2B2220">The fashion edit</text>
+    <text x="24" y="334" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2" fill="#6C4C50">STYLE • DISCOVER • REPEAT</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(1160 150) rotate(7 145 190)">
+    <rect width="250" height="350" rx="22" fill="#FFFFFF"/>
+    <rect x="16" y="16" width="218" height="220" rx="14" fill="#EFE6D9"/>
+    <circle cx="125" cy="122" r="72" fill="#C69B6D" opacity=".75"/>
+    <rect x="93" y="65" width="64" height="122" rx="20" fill="#F8F4ED" stroke="#7F2548" stroke-width="3"/>
+    <rect x="105" y="49" width="40" height="22" rx="5" fill="#7F2548"/>
+    <path d="M106 126h38" stroke="#C69B6D" stroke-width="5"/>
+    <text x="20" y="275" font-family="Georgia,serif" font-size="24" fill="#2B2220">Everyday rituals</text>
+    <text x="20" y="307" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2" fill="#806D61">BEAUTY • HOME • MORE</text>
+  </g>
+  <g transform="translate(1435 475)"><circle r="38" fill="#7F2548"/><path d="M-15 0h30M0-15v30" stroke="#F3EDE3" stroke-width="3" stroke-linecap="round"/></g>
+</svg>
